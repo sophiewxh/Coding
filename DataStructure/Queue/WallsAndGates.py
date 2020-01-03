@@ -103,7 +103,7 @@ class Solution:
         self.update_bfs_dist(graph, (0, 2), grid)
 
 
-    def wallsAndGates_correct_solution(self, rooms):
+    def wallsAndGates_solution(self, rooms):
         """
         :type rooms: List[List[int]]
         :rtype: void Do not return anything, modify rooms in-place instead.
@@ -141,4 +141,4 @@ if __name__ == '__main__':
     print(eg1)
     sol = Solution()
     #sol.find_dist_to_gate(eg_grid)
-    sol.wallsAndGates_correct_solution(eg1)
+    sol.wallsAndGates_solution(eg1)
